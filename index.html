@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>foodwargon</title>
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="navigation__grid">
+                <div class="navigation__logo">
+                    <img src="images/Logo.png">
+                    <p><span class="probold-1 warning">food</span><span class="probold-2 primary">wa</span><span class="problack-1 primary">G</span><span class="probold-1 primary">on</span></p>
+                </div>
+
+                <div class="navigation__deliver_grid">
+                    <p class="probold-3 gray800">Deliver to:</p>
+                    <div class="navigation__deliver">
+                        <img src="images/map-marker-alt.png">
+                        <div class="navigation__deliver_text">
+                            <p class="openregular-1 gray800">Current Location</p>
+                            <p class="openbold-1 gray800">Mohammadpur Bus Stand, Dhaka</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="navigation__search_grid">
+                    <div class="navigation__search">
+                        <img src="images/Search.png">
+                        <a class="probold-3 gray800">Search Food</a>
+                    </div>
+                    <button class="navigation-btn probold-3 linear"><img src="images/user.png">Login</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="background relative">
+            <div class="header__title">
+                <p class="probold-4 white">Are you starving?</p>
+                <p class="proregular-1 gray">Within a few clicks, find meals that are accessible near you</p>
+            </div>
+            <div class="order__card">
+                <div class="order__card_top">
+                    <div class="order__card_tab-1">
+                        <img src="images/bike.png">
+                        <p class="probold-3 warning">Delivery</p>
+                    </div>
+                    <div class="order__card_tab-2">
+                        <img src="images/bag.png">
+                        <p class="probold-3 gray600">Pickup</p>
+                    </div>
+                </div>
+                <hr class="hr"/>
+                <div class="order__card_bottom">
+                    <div class="order__card_bottom-grid">
+                        <label for="address">
+                            <input type="text" placeholder="Enter Your Address" id="address">
+                        </label>
+                        <button class="header-btn probold-3 white"><img src="images/sear.png">Find Food</button>
+                    </div>
+                </div>
+            </div>
+            <img src="images/Image Base.png" id="eat">
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="flashdeals__cards_grid">
+                <div class="flashdeals__card_grid">
+                    <div class="flashdeals__card_photo">
+                        <div class="flashdeals__card_discount">
+                            <p class="probold-5 white">15</p>
+                            <div class="flashdeals__card_percentage">
+                                <p class="probold-6 white">%</p>
+                                <p class="proregular-1 white">Off</p>
+                            </div>
+                        </div>
+                        <img src="images/food1.png">
+                    </div>
+                    <div class="flashdeals__card_text">
+                        <p class="probold-7 gray800">Greys Vage</p>
+                        <p class="flashdeals-text probold-7 warning">6 Days Remaining</p>
+                    </div>  
+                </div>
+
+                <div class="flashdeals__card_grid">
+                    <div class="flashdeals__card_photo">
+                        <div class="flashdeals__card_discount">
+                            <p class="probold-5 white">10</p>
+                            <div class="flashdeals__card_percentage">
+                                <p class="probold-6 white">%</p>
+                                <p class="proregular-1 white">Off</p>
+                            </div>
+                        </div>
+                        <img src="images/food2.png">
+                    </div>
+                    <div class="flashdeals__card_text">
+                        <p class="probold-7 gray800">Greys Vage</p>
+                        <p class="flashdeals-text probold-7 warning">6 Days Remaining</p>
+                    </div>  
+                </div>
+
+                <div class="flashdeals__card_grid">
+                    <div class="flashdeals__card_photo">
+                        <div class="flashdeals__card_discount">
+                            <p class="probold-5 white">25</p>
+                            <div class="flashdeals__card_percentage">
+                                <p class="probold-6 white">%</p>
+                                <p class="proregular-1 white">Off</p>
+                            </div>
+                        </div>
+                        <img src="images/food3.png">
+                    </div>
+                    <div class="flashdeals__card_text">
+                        <p class="probold-7 gray800">Greys Vage</p>
+                        <p class="flashdeals-text probold-7 warning">7 Days Remaining</p>
+                    </div>  
+                </div>
+
+                <div class="flashdeals__card_grid">
+                    <div class="flashdeals__card_photo">
+                        <div class="flashdeals__card_discount">
+                            <p class="probold-5 white">20</p>
+                            <div class="flashdeals__card_percentage">
+                                <p class="probold-6 white">%</p>
+                                <p class="proregular-1 white">Off</p>
+                            </div>
+                        </div>
+                        <img src="images/food4.png">
+                    </div>
+                    <div class="flashdeals__card_text">
+                        <p class="probold-7 gray800">Greys Vage</p>
+                        <p class="flashdeals-text probold-7 warning">8 Days Remaining</p>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="tutorial__grid">
+                <p class="probold-8 warning">How does it work</p>
+                <div class="features__cards_grid">
+                    <div class="features__card_grid">
+                        <img src="images/feat1.svg" id="img">
+                        <div class="features__card_text">
+                            <p class="probold-7 gray100">Select location</p>
+                            <p class="openregular-1 center gray500">Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+                    <div class="features__card_grid">
+                        <img src="images/feat2.png" id="img">
+                        <div class="features__card_text">
+                            <p class="probold-7 gray100">Choose order</p>
+                            <p class="openregular-1 center gray500">Check over hundreds of menus to pick your favorite food</p>
+                        </div>
+                    </div>
+                    <div class="features__card_grid">
+                        <img src="images/feat3.png" id="img">
+                        <div class="features__card_text">
+                            <p class="probold-7 gray100">Pay advanced</p>
+                            <p class="openregular-1 center gray500">It's quick, safe, and simple. Select several methods of payment</p>
+                        </div>
+                    </div>
+                    <div class="features__card_grid">
+                        <img src="images/feat4.png" id="img">
+                        <div class="features__card_text">
+                            <p class="probold-7 gray100">Enjoy meals</p>
+                            <p class="openregular-1 center gray500">Food is made and delivered directly to your home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="relative popular">
+                <div>
+                    <div class="arrow arrow__left"><img src="images/arrowleft.png"></div>
+                    <div class="arrow arrow__right"><img src="images/arrowright.png"></div>
+                </div>
+
+                <div class="popular__grid">
+                    <p class="probold-8 gray900">Popular items</p>
+                    <div class="popular__cards_grid">
+                        <div class="popular__card_grid">
+                            <div class="popular__card_content">
+                                <img src="images/popular1.png">
+                                <div class="popular__card_text">
+                                    <div class="popular__card_name">
+                                        <p class="probold-7 gray800">Cheese Burger</p>
+                                        <div class="popular__card_location">
+                                            <img src="images/popular_map.png">
+                                            <p class="proregular-1 primary">Burger Arena</p>
+                                        </div>
+                                    </div>
+                                    <p class="probold-7 gray900">$3.88</p>
+                                </div>
+                            </div>
+                            <button class="popular-btn probold-3 white">Order Now</button>
+                        </div>
+
+                        <div class="popular__card_grid">
+                            <div class="popular__card_content">
+                                <img src="images/popular2.png">
+                                <div class="popular__card_text">
+                                    <div class="popular__card_name">
+                                        <p class="probold-7 gray800">Toffe’s Cake</p>
+                                        <div class="popular__card_location">
+                                            <img src="images/popular_map.png">
+                                            <p class="proregular-1 primary">Top Sticks</p>
+                                        </div>
+                                    </div>
+                                    <p class="probold-7 gray900">$4.00</p>
+                                </div>
+                            </div>
+                            <button class="popular-btn probold-3 white">Order Now</button>
+                        </div>
+
+                        <div class="popular__card_grid">
+                            <div class="popular__card_content">
+                                <img src="images/popular3.png">
+                                <div class="popular__card_text">
+                                    <div class="popular__card_name">
+                                        <p class="probold-7 gray800">Dancake</p>
+                                        <div class="popular__card_location">
+                                            <img src="images/popular_map.png">
+                                            <p class="proregular-1 primary">Cake World</p>
+                                        </div>
+                                    </div>
+                                    <p class="probold-7 gray900">$1.99</p>
+                                </div>
+                            </div>
+                            <button class="popular-btn probold-3 white">Order Now</button>
+                        </div>
+
+                        <div class="popular__card_grid">
+                            <div class="popular__card_content">
+                                <img src="images/popular4.png">
+                                <div class="popular__card_text">
+                                    <div class="popular__card_name">
+                                        <p class="probold-7 gray800">Crispy Sandwitch</p>
+                                        <div class="popular__card_location">
+                                            <img src="images/popular_map.png">
+                                            <p class="proregular-1 primary">Fastfood Dine</p>
+                                        </div>
+                                    </div>
+                                    <p class="probold-7 gray900">$3.00</p>
+                                </div>
+                            </div>
+                            <button class="popular-btn probold-3 white">Order Now</button>
+                        </div>
+
+                        <div class="popular__card_grid">
+                            <div class="popular__card_content">
+                                <img src="images/popular5.png">
+                                <div class="popular__card_text">
+                                    <div class="popular__card_name">
+                                        <p class="probold-7 gray800">Thai  Soup</p>
+                                        <div class="popular__card_location">
+                                            <img src="images/popular_map.png">
+                                            <p class="proregular-1 primary">Foody man</p>
+                                        </div>
+                                    </div>
+                                    <p class="probold-7 gray900">$2.79</p>
+                                </div>
+                            </div>
+                            <button class="popular-btn probold-3 white">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="featured__grid">
+                <p class="probold-8 gray900">Featured Restaurants</p>
+                <div class="featured__cards_grid">
+                    <div class="featured__cards_row">
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured1.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">20% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/foodworld.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Foodworld</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">46</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="featured__tomorrow probold-7 warning">Opens tomorrow</p>  
+                            </div>
+                        </div>
+
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured2.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">15% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/pizzahub.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Pizzahub</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">40</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="featured__tomorrow probold-7 warning">Opens tomorrow</p>  
+                            </div>
+                        </div>
+
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured3.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">10% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/dunkindonuts.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Dunkin Donuts</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="featured__open probold-7 success">Open Now</a>  
+                            </div>
+                        </div>
+
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured4.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">15% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/subway.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Subway</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="featured__open probold-7 success">Open Now</a>  
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="featured__cards_row">
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured5.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">10% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/ruby-tuesday.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Ruby Tuesday</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">26</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="featured__open probold-7 success">Open Now</a>  
+                            </div>
+                        </div>
+
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured6.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">25% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/KFC.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Kuakata Fried Chicken</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">53</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="featured__open probold-7 success">Open Now</a> 
+                            </div>
+                        </div>
+                        
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured7.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">10% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/red-square.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Red Square</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">45</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="featured__open probold-7 success">Open Now</a>
+                            </div>
+                        </div>
+
+                        <div class="featured__card_grid">
+                            <div class="relative featured__image">
+                                <img src="images/featured8.png">
+                                <div class="featured__card_cupon">
+                                    <img src="images/cupon.png">
+                                    <p class="probold-7 white">10% off</p>
+                                </div>
+                                <div class="featured__card_cloak">
+                                    <img src="images/cloak.png">
+                                    <p class="probold-7 white">Fast</p>
+                                </div>
+                            </div>
+                            <div class="featured__card_content">
+                                <div class="featured__card_logo">
+                                    <img src="images/taco-bell.png">
+                                    <div class="featured__card_name">
+                                        <p class="probold-7 gray800">Taco Bell</p>
+                                        <div class="featured__card_review">
+                                            <img src="images/star.png">
+                                            <p class="proregular-1 primary">35</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="featured__open probold-7 success">Open Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="featured-btn probold-3 white">View all <img src="images/featuredarrow.png"></button>
+            </div>
+        </section>
+
+        <section>
+            <div class="search__grid">
+                <div class="search__section_background-1">
+                    <div class="search__section-1">
+                        <div class="search__header">
+                            <p class="probold-8 gray900">Search by Food</p>
+                            <div class="search__buttons">
+                                <button class="search-btn probold-3 primary">View All <img src="images/searcharrow.png"></button>
+                                <div class="search__slider">
+                                    <div class="search__arrow"><img src="images/arrowleft.png"></div>
+                                    <div class="search__arrow"><img src="images/arrowright.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search__food_grid">
+                            <div class="search__food_card">
+                                <img src="images/search1.png">
+                                <p class="probold-7 gray800">Pizza</p>
+                            </div>
+                            <div class="search__food_card">
+                                <img src="images/search2.png">
+                                <p class="probold-7 gray800">Burger</p>
+                            </div>
+                            <div class="search__food_card">
+                                <img src="images/search3.png">
+                                <p class="probold-7 gray800">Noodles</p>
+                            </div>
+                            <div class="search__food_card">
+                                <img src="images/search4.png">
+                                <p class="probold-7 gray800">Sub-sandiwch</p>
+                            </div>
+                            <div class="search__food_card">
+                                <img src="images/search5.png">
+                                <p class="probold-7 gray800">Chowmein</p>
+                            </div>
+                            <div class="search__food_card">
+                                <img src="images/search6.png">
+                                <p class="probold-7 gray800">Steak</p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="search__section_background-2">
+                    <div class="search__section-2">
+                        <div class="search__card">
+                            <img src="images/dailydiscounts.svg">
+                            <p class="probold-6 linear-1">Daily <br> Discounts</p>
+                        </div>
+                        <img src="images/HR.png">
+                        <div class="search__card">
+                            <img src="images/livetracing.svg">
+                            <p class="probold-6 linear-1">Live <br> Tracing</p>
+                        </div>
+                        <img src="images/HR.png">
+                        <div class="search__card">
+                            <img src="images/quickdelivery.svg">
+                            <p class="probold-6 linear-1">Quick <br> Delivery</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search__section_background-3 relative">
+                    <div class="search__section-3">
+                        <img src="images/phones.png" id="phones">
+                        <div class="search__phones_main">
+                            <div class="search__phones_text">
+                                <p class="probold-5 linear">Install the app</p>
+                                <p class="openregular-1 gray50">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+                            </div>
+                            <div class="search__phones_buttons">
+                                <img src="images/Google Play Download.png" alt="googleplay">
+                                <img src="images/App Store Download Button.png" alt="appstore">
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/ellipse.png" id="ellipse">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="details__grid">
+                <div class="details__card_grid">
+                    <div class="details__card_content">
+                        <div class="details__card_text">
+                            <p class="probold-8 primary details__text-1"><span class="gray150">Best deals</span> Crispy Sandwiches</p>
+                            <p class="openbold-1 gray300 details__text-2">Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+                        </div>
+                        <button class="details-btn problack-2 white">PROCEED TO ORDER <img src="images/CHEVRON-RIGHT.png"></button>
+                    </div>
+                    <img src="images/details1.png">
+                </div>
+
+                <div class="details__card_grid">
+                    <img src="images/details2.png">
+                    <div class="details__card_content">
+                        <div class="details__card_text">
+                            <p class="probold-8 primary details__text-1"><span class="gray150">Celebrate  parties with</span> Fried Chicken</p>
+                            <p class="openbold-1 gray300 details__text-2">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.</p>
+                        </div>
+                        <button class="details-btn problack-2 white">PROCEED TO ORDER <img src="images/CHEVRON-RIGHT.png"></button>
+                    </div>
+                </div>
+
+                <div class="details__card_grid">
+                    <div class="details__card_content">
+                        <div class="details__card_text">
+                            <p class="probold-8 primary details__text-1"><span class="gray150">Wanna eat hot & spicy</span> Pizza?</p>
+                            <p class="openbold-1 gray300 details__text-2">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+                        </div>
+                        <button class="details-btn problack-2 white">PROCEED TO ORDER <img src="images/CHEVRON-RIGHT.png"></button>
+                    </div>
+                    <img src="images/details3.png">
+                </div>
+            </div>
+        </section>
+
+        <section  class="cta__background">
+            <div>
+                <p class="problack-3 white">Are you ready to order with <br> the best deals?</p>
+                <button class="cta-btn problack-2 white">PROCEED TO ORDER <img src="images/CHEVRON-RIGHT.png"></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="footer__top">
+                <p class="probold-7 white">Our top cities</p>
+                <div class="footer__top_list">
+                    <ul>
+                        <li class="proregular-2 gray250 footer__li_text">San Francisco</li>
+                        <li class="proregular-2 gray250 footer__li_text">Miami</li>
+                        <li class="proregular-2 gray250 footer__li_text">San Diego</li>
+                        <li class="proregular-2 gray250 footer__li_text">East Bay</li>
+                        <li class="proregular-2 gray250 footer__li_text">Long Beach</li>
+                    </ul>
+                    <ul>
+                        <li class="proregular-2 gray250 footer__li_text">Los Angeles</li>
+                        <li class="proregular-2 gray250 footer__li_text">Washington DC</li>
+                        <li class="proregular-2 gray250 footer__li_text">Seattle</li>
+                        <li class="proregular-2 gray250 footer__li_text">Portland</li>
+                        <li class="proregular-2 gray250 footer__li_text">Nashville</li>
+                    </ul>
+                    <ul>
+                        <li class="proregular-2 gray250 footer__li_text">New York City</li>
+                        <li class="proregular-2 gray250 footer__li_text">Orange County</li>
+                        <li class="proregular-2 gray250 footer__li_text">Atlanta</li>
+                        <li class="proregular-2 gray250 footer__li_text">Charlotte</li>
+                        <li class="proregular-2 gray250 footer__li_text">Denver</li>
+                    </ul>
+                    <ul>
+                        <li class="proregular-2 gray250 footer__li_text">Chicago</li>
+                        <li class="proregular-2 gray250 footer__li_text">Phoenix</li>
+                        <li class="proregular-2 gray250 footer__li_text">Las Vegas</li>
+                        <li class="proregular-2 gray250 footer__li_text">Sacramento</li>
+                        <li class="proregular-2 gray250 footer__li_text">Oklahoma City</li>
+                    </ul>
+                    <ul>
+                        <li class="proregular-2 gray250 footer__li_text">Columbus</li>
+                        <li class="proregular-2 gray250 footer__li_text">New Mexico</li>
+                        <li class="proregular-2 gray250 footer__li_text">Albuquerque</li>
+                        <li class="proregular-2 gray250 footer__li_text">Sacramento</li>
+                        <li class="proregular-2 gray250 footer__li_text">New Orleans</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="footer__bottom_grid">
+                <img src="images/footer_HR.png">
+
+                <div class="footer__bottom_menu">
+                    <div class="footer__bottom_li">
+                        <ul>
+                            <li class="footer__bottom_title probold-7 white">Company</li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">About us</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Team</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Careers</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Blog</a></li>
+                        </ul>
+                        <ul>
+                            <li class="footer__bottom_title probold-7 white">Contact</li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Help & Support</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Partner with us</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Ride with us</a></li>
+                        </ul>
+                        <ul>
+                            <li class="footer__bottom_title probold-7 white">Legal</li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Terms & Conditions</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Refund & Cancellation</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Privacy Policy</a></li>
+                            <li class="footer__bottom_subtitle"><a href="#" class="footer__bottom_subtitle proregular-2 gray250">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom_info">
+                        <div class="footer__bottom_follow">
+                            <p class="probold-3 gray250 footer__bottom_follow_text">Follow Us</p>
+                            <div class="footer__bottom_icons">
+                                <a href="#">
+                                    <picture>
+                                        <img src="images/instagramm.png" alt="Instagramm">
+                                    </picture>
+                                </a>
+                                <a href="#">
+                                    <picture>
+                                        <img src="images/facebook.png" alt="Facebook">
+                                    </picture>
+                                </a>
+                                <a href="#">
+                                    <picture>
+                                        <img src="images/twitter.png" alt="Twitter">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__bottom_subscribe">
+                            <p class="openbold-1 grayb">Receive exclusive offers in your mailbox</p>
+                            <div class="footer__bottom_button">
+                                <div class="relative">
+                                    <label for="email">
+                                        <input type="email" placeholder="Enter Your email" id="email" class="openregular-1 grayad">
+                                    </label>
+                                    <img src="images/envelope.png" id="email__icon">
+                                </div>
+                                <button class="footer-btn probold-3 white">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom_rights_grid">
+                    <img src="images/footer_HR.png">
+                    <div class="footer__bottom_rights_text">
+                        <div class="footer__bottom_rights_company">
+                            <div class="footer__bottom_rights_copyright">
+                                <p class="openregular-2 gray250 opacity">All rights Reserved</p>
+                                <img src="images/copyright.png">
+                            </div>
+                            <p class="openbold-2 gray250">Your Company, 2021</p>
+                        </div>
+                        <div class="footer__bottom_rights_made">
+                            <p class="openregular-2 gray250">Made with 💛 by</p>
+                            <p class="openbold-2 gray250">Themewagon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
