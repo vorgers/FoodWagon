@@ -1,0 +1,144 @@
+@font-face {
+    font-family: SansProBl,;
+    src: url(/fonts/SourceSansPro-Black.ttf);
+}
+
+@font-face {
+    font-family: SansProB,;
+    src: url(/fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: SansProR;
+    src: url(/fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansB,;
+    src: url(/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSansR,;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+.probold-1 {
+    font-family: SansProB, sans-serif;
+    font-size: 31px;
+    line-height: 120%;
+    letter-spacing: -2.5%;
+    font-weight: bold;
+}
+
+.probold-2 {
+    font-family: SansProB, sans-serif;
+    font-size: 31px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-weight: bold;
+}
+
+.probold-3 {
+    font-family: SansProB, sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.probold-4 {
+    font-family: SansProB, sans-serif;
+    font-size: 88px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.probold-5 {
+    font-family: SansProB, sans-serif;
+    font-size: 68px;
+    line-height: 106%;
+    font-weight: bold;
+}
+
+.probold-6 {
+    font-family: SansProB, sans-serif;
+    font-size: 35px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.probold-7 {
+    font-family: SansProB, sans-serif;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.probold-8 {
+    font-family: SansProB, sans-serif;
+    font-size: 43px;
+    line-height: 112%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.problack-1 {
+    font-family: SansProBl, sans-serif;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-weight: bold;
+}
+
+.problack-2 {
+    font-family: SansProBl, sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.problack-3 {
+    font-family: SansProBl, sans-serif;
+    font-size: 57px;
+    line-height: 97.5%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.proregular-1 {
+    font-family: SansProR, sans-serif;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.proregular-2 {
+    font-family: SansProR, sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.openregular-1 {
+    font-family: OpenSansR, sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.openregular-2 {
+    font-family: OpenSansR, sans-serif;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.openbold-1 {
+    font-family: OpenSansB, sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+.openbold-2 {
+    font-family: OpenSansB, sans-serif;
+    font-size: 15px;
+    line-height: 120%;
+    font-weight: bold;
+}
